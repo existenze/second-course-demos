@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ChartExportLibrary } from "./components/ChartExportLibrary";
 import {
   ClaimsByHourChart,
   ClaimsOverTimeChart,
@@ -420,6 +421,8 @@ P-1038,Pizza and salad leftovers,James T.,Student Union,2026-06-11T13:10,44,52,0
             </pre>
           </div>
         </TabPanel>
+
+        <ChartExportLibrary />
 
         <footer className="mt-10 flex flex-col items-center gap-2 text-sm text-black/70 font-sans">
           <a href="https://www.instagram.com/haveasecondcourse/" className="underline hover:text-black">

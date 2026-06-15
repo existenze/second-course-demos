@@ -10,7 +10,7 @@ export function DemandHeatmap() {
   const height = labelH + DEMAND_LOCATIONS.length * cellH + 32;
 
   return (
-    <div data-chart-export="chart-demand-heatmap">
+    <>
       <svg width={width} height={height} className="block">
         {DEMAND_TIMES.map((time, index) => (
           <text
@@ -61,6 +61,6 @@ export function DemandHeatmap() {
         <span>Darker cells = higher claim rate</span>
         <span>Peak: Alumni Ctr, 11a–1p</span>
       </div>
-    </div>
+    </>
   );
 }

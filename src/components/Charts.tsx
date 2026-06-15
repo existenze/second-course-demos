@@ -45,7 +45,7 @@ export function ChartShell({
   className?: string;
 }) {
   return (
-    <div className={`chart-export ${className}`} data-chart-export={id}>
+    <div className={`chart-export ${className}`} id={id}>
       <h3 className="font-display text-lg text-black mb-3">{title}</h3>
       <div className="h-48 w-full">{children}</div>
       {caption ? <p className="mt-2 text-xs text-black/60 font-sans">{caption}</p> : null}
