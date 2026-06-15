@@ -30,6 +30,12 @@ jobs:
         env:
           GITHUB_PAGES: "true"
 
+      - name: Verify production build
+        run: |
+          test -f dist/index.html
+          ! grep -q 'src/main.tsx' dist/index.html
+          grep -q 'second-course-university-dashboard/assets/' dist/index.html
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

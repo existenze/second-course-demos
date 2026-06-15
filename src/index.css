@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Worktalk";
-  src: url("/fonts/Worktalk.otf") format("opentype");
+  src: url("./assets/fonts/Worktalk.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "LotaGrotesqueAlt3SemiBold";
-  src: url("/fonts/LotaGrotesqueAlt3SemiBold.otf") format("opentype");
+  src: url("./assets/fonts/LotaGrotesqueAlt3SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
